@@ -1,0 +1,1405 @@
+@media (max-width: 3840px)
+{
+    body
+    {
+        margin: 0%;
+        background-image: url("Image/minecraft.jpeg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+
+    header
+    {
+        margin: 0%; 
+        /*position: fixed;*/
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(to bottom ,rgba(0, 225, 255, 0.719), rgba(161, 244, 255, 0));
+
+
+    }
+
+    p
+    {
+        display: inline-block;
+    }
+    a
+    {
+        margin-left: 20%;
+        background: linear-gradient(to bottom ,rgb(0, 225, 255), rgba(161, 244, 255, 0.363));
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    a:hover
+    {
+        border: solid 2px white;
+        box-shadow: white;
+    }
+
+    .p_1{
+        color: rgb(177, 177, 177);
+        font-size: 0.8em;
+        float: left;
+    }
+
+    .p_2{
+        color: rgba(0, 0, 0, 0.657);
+        font-size: 0.9em;
+        float: left;
+    }
+
+    /*____________ARTICLES____________*/
+    .article_1
+    {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 10vh;
+        display: inline-block;
+    }
+    .input_article
+    {
+        
+        height: 50vh;
+        width: 25%;
+        background-color: rgba(255, 255, 255, 0.137);
+        margin: 0% 37.5% 0% 37.5%;
+        border-radius: 5%;
+        box-shadow:inset 0px 0px 10px  black;
+
+    }
+
+    .div_1
+    {
+        height: 40vh;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+
+
+
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+
+    .steve
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #6ac8ff9f;
+    }
+
+
+    .div_2
+    {
+        height: 40vh;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+
+
+
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;  
+    }
+
+    .steve_girl
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve_girl.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff5f949f;
+    }
+
+    .div_3
+    {
+        height: 40vh;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+
+
+
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+
+    .herobrine
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 15px 5px black;
+        background-image: url("Image/herobrine.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff58589f;
+    }
+
+    .div_4
+    {
+        height: 40vh;
+        width: 20%;
+        display: inline-block;
+        margin: 5%;
+        color: rgb(98, 98, 98);;
+        box-shadow: inset 0px 0px 10px black;
+
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+
+    .zombie
+    {
+        float: left;
+        margin: 5% 5% 5% 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/zombie.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #1d6800ab;
+    }
+
+
+
+
+    .div_5
+    {
+        height: 40vh;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+
+
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+
+    .kreeper
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/kreeper.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff260078;
+    }
+    .div_6
+    {
+        height: 40vh;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+
+
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+
+    .enderman
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Enderman.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #09005d78;
+    }
+
+    .article_2
+    {
+        width: 100%;
+        height: 100vh;
+
+
+        background-color: rgba(255, 217, 0, 0.52);
+        box-shadow: inset 0px 0px 10px 5px black;
+    }
+
+    .div_7
+    {
+        display: inline-block;
+        height: 40%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        background-image: url("Image/dims.jfif");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+        border: solid 4px black;
+        box-shadow: inset 0px 0px 10px black;
+    }
+
+    .div_8
+        {
+            display: inline-block;
+            height: 60%;
+            width: 60%;
+            border: solid 3px black;
+            box-shadow: inset 0px 0px 10px black;
+            background-color: rgb(255, 255, 255);
+            background-image: url("Image/panda.jpg");
+            background-repeat:no-repeat;
+            /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+            /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+            /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+        
+        }
+    /*
+    .div_9
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+
+    .div_10
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+
+    .div_11
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+    }
+
+    .div_12
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    */
+}
+
+@media (max-width: 1100px)
+{
+    body
+    {
+        margin: 0%;
+        background-image: url("Image/minecraft.jpeg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    header
+    {
+        margin: 0%; 
+        /*position: fixed;*/
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(to bottom ,rgba(0, 225, 255, 0.719), rgba(161, 244, 255, 0));
+    
+    
+    }
+    
+    p
+    {
+        display: inline-block;
+    }
+    a
+    {
+        margin-left: 20%;
+        background: linear-gradient(to bottom ,rgb(0, 225, 255), rgba(161, 244, 255, 0.363));
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    a:hover
+    {
+        border: solid 2px white;
+        box-shadow: white;
+    }
+    
+    .p_1{
+        color: rgb(177, 177, 177);
+        font-size: 0.8em;
+        float: left;
+    }
+    
+    .p_2{
+        color: rgba(0, 0, 0, 0.657);
+        font-size: 0.8em;
+        float: left;
+    }
+    
+    /*____________ARTICLES____________*/
+    .article_1
+    {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 10vh;
+        display: inline-block;
+    }
+    .input_article
+    {
+        
+        height: 30%;
+        width: 25%;
+        background-color: rgba(255, 255, 255, 0.137);
+        margin: 0% 37.5% 0% 37.5%;
+        border-radius: 5%;
+        box-shadow:inset 0px 0px 10px  black;
+    
+    }
+    
+    .div_1
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .steve
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #6ac8ff9f;
+    }
+    
+    
+    .div_2
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;  
+    }
+    
+    .steve_girl
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve_girl.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff5f949f;
+    }
+    
+    .div_3
+    {
+        height: 25%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .herobrine
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 15px 5px black;
+        background-image: url("Image/herobrine.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff58589f;
+    }
+    
+    .div_4
+    {
+        height: 20%;
+        width: 20%;
+        display: inline-block;
+        margin: 5%;
+        color: rgb(98, 98, 98);;
+        box-shadow: inset 0px 0px 10px black;
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .zombie
+    {
+        float: left;
+        margin: 5% 5% 5% 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/zombie.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #1d6800ab;
+    }
+    
+    
+    
+    
+    .div_5
+    {
+        height: 22%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .kreeper
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/kreeper.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff260078;
+    }
+    .div_6
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .enderman
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Enderman.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #09005d78;
+    }
+    
+    .article_2
+    {
+        width: 100%;
+        height: 100vh;
+    
+    
+        background-color: rgba(255, 217, 0, 0.52);
+        box-shadow: inset 0px 0px 10px 5px black;
+    }
+    
+    .div_7
+    {
+        display: inline-block;
+        height: 300px;
+        width: 480px;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        background-image: url("Image/dims.jfif");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+        border: solid 4px black;
+    }
+    
+    .div_8
+    {
+        border: solid 3px black;
+        box-shadow: inset 0px 0px 10px black;
+        background-color: rgb(255, 255, 255);
+        background-image: url("Image/panda.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    
+    }
+    /*
+    .div_9
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    
+    .div_10
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    
+    .div_11
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+    }
+    
+    .div_12
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    */
+}
+
+@media(max-width:900)
+{
+
+    body
+    {
+        margin: 0%;
+        background-image: url("Image/minecraft.jpeg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    header
+    {
+        margin: 0%; 
+        /*position: fixed;*/
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(to bottom ,rgba(0, 225, 255, 0.719), rgba(161, 244, 255, 0));
+    
+    
+    }
+    
+    p
+    {
+        display: inline-block;
+    }
+    a
+    {
+        margin-left: 20%;
+        background: linear-gradient(to bottom ,rgb(0, 225, 255), rgba(161, 244, 255, 0.363));
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    a:hover
+    {
+        border: solid 2px white;
+        box-shadow: white;
+    }
+    
+    .p_1{
+        color: rgb(177, 177, 177);
+        font-size: 0.8em;
+        float: left;
+    }
+    
+    .p_2{
+        color: rgba(0, 0, 0, 0.657);
+        font-size: 0.8em;
+        float: left;
+    }
+    
+    /*____________ARTICLES____________*/
+    .article_1
+    {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 10vh;
+        display: inline-block;
+    }
+    .input_article
+    {
+        
+        height: 30%;
+        width: 25%;
+        background-color: rgba(255, 255, 255, 0.137);
+        margin: 0% 37.5% 0% 37.5%;
+        border-radius: 5%;
+        box-shadow:inset 0px 0px 10px  black;
+    
+    }
+    
+    .div_1
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .steve
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #6ac8ff9f;
+    }
+    
+    
+    .div_2
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;  
+    }
+    
+    .steve_girl
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve_girl.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff5f949f;
+    }
+    
+    .div_3
+    {
+        height: 25%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .herobrine
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 15px 5px black;
+        background-image: url("Image/herobrine.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff58589f;
+    }
+    
+    .div_4
+    {
+        height: 20%;
+        width: 20%;
+        display: inline-block;
+        margin: 5%;
+        color: rgb(98, 98, 98);;
+        box-shadow: inset 0px 0px 10px black;
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .zombie
+    {
+        float: left;
+        margin: 5% 5% 5% 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/zombie.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #1d6800ab;
+    }
+    
+    
+    
+    
+    .div_5
+    {
+        height: 22%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .kreeper
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/kreeper.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff260078;
+    }
+    .div_6
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .enderman
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Enderman.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #09005d78;
+    }
+    
+    .article_2
+    {
+        width: 100%;
+        height: 100vh;
+    
+    
+        background-color: rgba(255, 217, 0, 0.52);
+        box-shadow: inset 0px 0px 10px 5px black;
+    }
+    
+    .div_7
+    {
+        display: inline-block;
+        height: 300px;
+        width: 480px;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        background-image: url("Image/dims.jfif");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+        border: solid 4px black;
+    }
+    
+    .div_8
+    {
+        border: solid 3px black;
+        box-shadow: inset 0px 0px 10px black;
+        background-color: rgb(255, 255, 255);
+        background-image: url("Image/panda.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    
+    }
+    /*
+    .div_9
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    
+    .div_10
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    
+    .div_11
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+    }
+    
+    .div_12
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    */
+
+}
+
+
+@media(max-width : 500px)
+{
+    body
+    {
+        zoom: 80%;
+        margin: 0%;
+        background-image: url("Image/minecraft.jpeg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center center;   /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */              
+        background-size: cover;      /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/ 
+        background-color: #464646;  /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   
+    }
+    
+    header
+    {
+        margin: 0%; 
+        /*position: fixed;*/
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(to bottom ,rgba(0, 225, 255, 0.719), rgba(161, 244, 255, 0));
+    
+    
+    }
+    
+    p
+    {
+        display: inline-block;
+    }
+    a
+    {
+        margin-left: 20%;
+        background: linear-gradient(to bottom ,rgb(0, 225, 255), rgba(161, 244, 255, 0.363));
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        border-radius: 50px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    a:hover
+    {
+        border: solid 2px white;
+        box-shadow: white;
+    }
+    
+    .p_1{
+        color: rgb(177, 177, 177);
+        font-size: 0.8em;
+        float: left;
+    }
+    
+    .p_2{
+        color: rgba(0, 0, 0, 0.657);
+        font-size: 0.8em;
+        float: left;
+    }
+    
+    /*____________ARTICLES____________*/
+    .article_1
+    {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: 10vh;
+        display: inline-block;
+    }
+    .input_article
+    {
+        
+        height: 30%;
+        width: 25%;
+        background-color: rgba(255, 255, 255, 0.137);
+        margin: 0% 37.5% 0% 37.5%;
+        border-radius: 5%;
+        box-shadow:inset 0px 0px 10px  black;
+    
+    }
+    
+    .div_1
+    {
+        height: 10%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .steve
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #6ac8ff9f;
+    }
+    
+    
+    .div_2
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;  
+    }
+    
+    .steve_girl
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Steve_girl.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff5f949f;
+    }
+    
+    .div_3
+    {
+        height: 25%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+    
+        background-image: url("Image/grass\ block.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .herobrine
+    {
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 15px 5px black;
+        background-image: url("Image/herobrine.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff58589f;
+    }
+    
+    .div_4
+    {
+        height: 20%;
+        width: 20%;
+        display: inline-block;
+        margin: 5%;
+        color: rgb(98, 98, 98);;
+        box-shadow: inset 0px 0px 10px black;
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .zombie
+    {
+        float: left;
+        margin: 5% 5% 5% 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/zombie.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #1d6800ab;
+    }
+    
+    
+    
+    
+    .div_5
+    {
+        height: 22%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .kreeper
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/kreeper.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #ff260078;
+    }
+    .div_6
+    {
+        height: 20%;
+        width: 20%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        box-shadow: inset 0px 0px 10px black;
+    
+    
+        background-image: url("Image/Diamonds.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    }
+    
+    .enderman
+    {
+        float: left;
+        margin: 5%;
+        border-radius: 10%;
+        height: 40%;
+        width: 40%;
+        box-shadow: inset 0px 0px 10px black;
+        background-image: url("Image/Enderman.png");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #09005d78;
+    }
+    
+    .article_2
+    {
+        width: 100%;
+        height: 100vh;
+    
+    
+        background-color: rgba(255, 217, 0, 0.52);
+        box-shadow: inset 0px 0px 10px 5px black;
+    }
+    
+    .div_7
+    {
+
+        height: 300px;
+        width: 480px;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+        background-image: url("Image/dims.jfif");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+        border: solid 4px black;
+    }
+    
+    .div_8
+    {
+
+        border: solid 3px black;
+        box-shadow: inset 0px 0px 10px black;
+        background-color: rgb(255, 255, 255);
+        background-image: url("Image/panda.jpg");
+        background-repeat:no-repeat;
+        /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;              
+        /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: contain;      
+        /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646;
+    
+    }
+    /*
+    .div_9
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    
+    .div_10
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    
+    .div_11
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+    }
+    
+    .div_12
+    {
+        height: 50vh;
+        width: 25%;
+        background-color: green;
+        display: inline-block;
+        margin: 5%;
+    }
+    */
+    
+}    
